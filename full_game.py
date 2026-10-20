@@ -57,7 +57,7 @@ def run_race(red, blue):
     # Si las dos alcanzan FINISH_X en la misma vuelta, devuelve "empate".
     
     while True:
-    # Mover ambas tortugas segun su velocidad
+    # Mover ambas tortugas según su velocidad
     red.forward(RED_SPEED)
     blue.forward(BLUE_SPEED)
 
